@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react';
+import './App.css';
+import EmployeeTable from "./components/EmployeeTable";
+import employeeData from "./employees.json";
 
 function App() {
   return (
-    // app contents
+    <EmployeeTable employees={employeeData.results} />
   );
 }
 
