@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import EmployeeTable from "./components/EmployeeTable";
-import employeeData from "./employees.json";
+import employeeData from "./utils/employees";
 
 function App() {
   return (
